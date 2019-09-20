@@ -1,6 +1,26 @@
 {
-  "name": "ngx-light-color-picker",
-  "version": "0.0.1",
+  "name": "@pixmama/ngx-light-color-picker",
+  "version": "0.0.2",
+  "description": "Angular 7 lightweight color picker",
+  "keywords": [
+    "angular",
+    "angular 7",
+    "color picker",
+    "angular 8",
+    "ngx",
+    "ngx-light-color-picker"
+  ],
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/pixmama/ngx-light-color-picker/blob/master/LICENSE"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pixmama/ngx-light-color-picker.git"
+  },
   "peerDependencies": {
     "@angular/common": "^7.2.0",
     "@angular/core": "^7.2.0"
