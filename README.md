@@ -32,6 +32,7 @@ git clone https://github.com/pixmama/ngx-light-color-picker.git
 npm install
 cd ngx-light-color-picker
 npm run build
+
 ```
 
 
@@ -42,6 +43,7 @@ npm run build
 ```
 ## Available events
 (colorSelected) = onColorSelected($event)
+
 ```
   onColorSelected(e) {
     this.selectedColor = e.detail.hex;
