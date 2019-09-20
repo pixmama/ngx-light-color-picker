@@ -1,11 +1,11 @@
 # Angular Light Color Picker
 
-Angular 2 Color Picker Directive/Component with no dependencies required.
-This is a Color Picker Directive/Component for Angular 2.
+Angular 7 Color Picker Component with no dependencies required.
+This is a Color Picker Component for Angular 7.
 
 ## Installation
 
-`npm i angular-light-color-picker`
+`npm i @pixmama/ngx-light-color-picker`
 
 ## Usage
 
@@ -15,7 +15,8 @@ Use it inside your components, for example:
 
 - Add NgxLightColorPickerModule in your app.module.ts:
 
-```import {NgxLightColorPickerModule} from 'angular2-color-picker';
+```
+import {NgxLightColorPickerModule} from 'angular2-color-picker';
  
  @NgModule({
      ...
@@ -24,17 +25,19 @@ Use it inside your components, for example:
  ```
  
 ## Build
+```
+git clone https://github.com/pixmama/ngx-light-color-picker.git
+npm install
+cd ngx-light-color-picker
+npm run build
+gulp copylib
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Optional parameters
+```
+  [height] = 300
+  [width]  = 300
+```
+## Available events
+(colorSelected) = onColorSelected($event)
